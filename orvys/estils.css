@@ -1,0 +1,1914 @@
+/*HTML*/
+body{
+       margin: 0 0;
+       background: #DADADA;
+       font-family: "Roboto";
+       height: 100%;
+       width: 100%;
+       overflow: hidden;
+       overflow: scroll;
+ }
+
+
+
+
+/*INDEX*/
+
+.pasar{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background-color: #DADADA;
+}
+
+.logo_pasar{
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-top: 40%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(img/ORVYS_quadrat.png);
+}
+
+.linea_animacio{
+  height: 0.4rem;
+  width: 80%;
+  margin-left: -100%;
+  background-color: blue;
+  background-image: url(img/linea.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: linea;
+  animation-duration: 3s;
+}
+
+@keyframes linea {
+  0%   {margin-left: -20%;}
+
+  80% {margin-left: 10%;}
+
+  100% {margin-left: 10%;}
+
+}
+/*FINAL index */
+
+
+
+/*NEW HOME */
+.subconjunt {
+  display: inline-block;
+  margin-top: 0.5vh;
+  color:black;
+  line-height: 10vw;
+  border-bottom: 0.2px solid white;
+  height: 22vw;
+  margin-bottom: 2vw;
+  padding-bottom: 1vw;
+}
+
+.foto_sub {
+  height: 20vw;
+  width: 20vw;
+  background: yellowgreen;
+  opacity: 1;
+  float: left;
+  border-radius: 50%;
+  margin-left: 3vw;
+  margin-top: 1vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grups_sub {
+  height: 10vw;
+  width: 54vw;
+  float: left;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 3vw;
+  line-height: 14vw;
+  margin-top: 1vw;
+}
+.notificacions_sub {
+  height: 8vw;
+  width: 8vw;
+  background: #1086A7;
+  float: left;
+  text-align: center;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  border-radius: 5vw;
+  line-height: 8vw;
+  margin-top: 3vw;
+  color: white;
+}
+
+
+
+
+.descripcio_sub {
+  height: 10vw;
+  width: 54vw;
+  float: left;
+  margin-left: 3vw;
+
+}
+.hora_sub {
+  height: 10vw;
+  width: 20vw;
+  float: left;
+  text-align:center;
+
+}
+
+.newhome{
+  height: 100vh;
+  margin: 0 0;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+#xat_fixat{
+position: fixed;
+background-color: #95C8D8;
+margin: 0;
+}
+
+#xat_2{
+  margin-top: 24vw;
+}
+
+#f1{
+  background-image: url(img/associacio/Cram.png);
+}
+
+#f2{
+  background-image: url(img/associacio/Ecobrion.png);
+}
+
+#f3{
+  background-image: url(img/persona/u4.jpg);
+}
+
+#f4{
+  background-image: url(img/fons/arbre.jpg);
+}
+
+#f5{
+  background-image: url(img/feminisme.jpg);
+}
+
+#f6{
+  background-image: url(img/associacio/igualdad.jpg);
+}
+
+#f7{
+  background-image: url(img/persona/u7.jpg);
+}
+
+#f8{
+  background-image: url(img/fam.png);
+}
+
+#f9{
+  background-image: url(img/fons/mar.jpg);
+}
+
+#f10{
+  background-image: url(img/fons/ovelles.jpg);
+}
+
+#sub10{
+  padding-bottom: 12vw;
+}
+
+
+
+
+/*FINAL HOME2 */
+
+
+
+/*BARRA SUPERIOR */
+
+.barra_superior{
+  height:4rem;
+  width:100%;
+  background-color:#C7C7C7;
+  top:0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 30;
+}
+
+.logo_barra_superior{
+  height: 2rem;
+  width: auto;
+  margin: 3% 40%;
+  margin-top: 1rem;
+  transform: translateY(0rem);
+  z-index: 31;
+}
+/*FINAL barra superior */
+
+
+
+
+
+
+
+
+
+
+/*BARRA INFERIOR */
+.barra_inferior{
+  height:3rem;
+  width:100%;
+  background-color:#C7C7C7;
+  bottom:0;
+  left: 0;
+  position: fixed;
+  z-index: 40;
+
+}
+
+.i_home{
+   background-color:#1E3F43; height:2.5rem; width:2.5rem;
+}
+/*FINAL barra inferior */
+
+
+
+
+
+
+
+
+
+/*HOME */
+
+/*.home{
+  z-index: -3;
+  padding-bottom:0rem;
+  height: 95%;
+  width: 100%;
+  background-color: ;
+  margin: 0 0;
+  color:black;
+}*/
+
+
+.home.1{
+  height: 100%;
+  width: 100%;
+}
+.xat{
+  height: 6rem;
+  width:100%;
+  border-bottom: 0.01rem solid #0F86A7;
+  transform: translateY(-2rem);
+}
+
+.nom_xat{
+  font-weight: bold;
+  margin-left: 30%;
+  margin-top: 2.5rem;
+
+}
+
+.missatge_xat{
+  font-weight: lighter;
+  margin-left: 30%;
+  margin-top: 0.5rem;
+}
+
+.notificacio_xat{
+  /*transform: translateX(20rem) translateY(-4rem);*/
+  height:1.5rem;
+  width: 1.5rem;
+  border-radius: 1.5rem;
+  line-height: 1.5rem;
+  background-color: #0F86A7;
+  text-align: center;
+  color: white;
+  margin-left: 80%;
+  margin-top: -4.5rem;
+}
+
+.hora_xat{
+  margin-left: 75%;
+}
+img{
+  height: 4rem;
+  width: auto;
+}
+.imatges_grans_xat{
+  height: 4rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+  border-radius: 4rem;
+  margin-left:1.5rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  transform: translateY(6rem);
+}
+
+.imatge_petita{
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-left: -4rem;
+  border-radius: 4rem;
+}
+
+#xat_destacat{
+  background-color: #95C8D8;
+  position: fixed;
+  height: 12rem;
+  width: 100%;
+  z-index: 1;
+  margin-top: -1rem;
+  border-bottom: solid transparent;
+}
+
+#xat2{
+  padding-top: 5rem;
+}
+/*FINAL home */
+
+
+
+
+
+
+
+
+
+/*XAT */
+/*MISSATGES */
+.missatge_dret{
+  height: auto;
+  width: 70%;
+  background-color: white;
+  margin-left: 2rem;
+  font-size: 1rem;
+  padding:0.5rem;
+  padding-right: 1rem;
+  border-radius: 1.1rem ;
+  font-weight: lighter;
+  z-index: -9;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+
+}
+
+.hora_dreta{
+  float:right;
+  margin-top: -1rem;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color:grey;
+}
+
+
+.missatge_text{
+  padding-left: 1rem;
+}
+
+
+.missatge_dret::after{
+content:"";
+ display:block;
+ height:1.2rem;
+ width:1.8rem;
+ background-color:white;
+ position:relative;
+ left:-1rem;
+ bottom: 1rem;
+ transform:rotate(45deg);
+ z-index: -10;
+
+}
+
+
+.missatge_esquerra{
+  height: auto;
+  width: 70%;
+  background-color: #6FB7CB;
+  margin-left: 15%;
+  margin-right: 10%;
+  font-size: 1rem;
+  padding:0.5rem;
+  padding-left: 1rem;
+  border-radius: 1.1rem ;
+  font-weight: lighter;
+  z-index: -9;
+  margin-bottom: 1rem;
+  right: 1rem;
+  padding-bottom: 0;
+}
+
+.missatge_esquerra::after{
+ content:"";
+ display:block;
+ height:1.2rem;
+ width:1.8rem;
+ background-color:#6FB7CB;
+ position:relative;
+ left:-1rem;
+ bottom: 1rem;
+ transform:rotate(-45deg);
+ margin-left: 100%;
+ z-index: -10;
+
+}
+
+.hora_esquerra{
+  float:right;
+  margin-top: -1rem;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color:black;
+}
+
+#m1{
+  margin-top: 8rem;
+}
+
+#m2{
+  margin-bottom: 8rem;
+}
+
+/*BARRA xat */
+.barra_xat{
+  height: 7rem;
+  width: 100%;
+  margin-top:0rem;
+  margin-bottom: 0;
+  background-color:#C7C7C7;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+.imatge_barra_xat{
+  height: 20vw;
+  width: 20vw;
+  border-radius: 20vw;
+  background-color: ;
+  background-image: url(img/fons/mar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20vw;
+  margin-top:1rem;
+}
+
+.nom_barra_xat{
+  margin-left:15vw;
+  margin-top: -5vw;
+  font-family: 'Roboto';
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+/*FINAL barra xat */
+/*FINAL missatges */
+
+#escriure_missatge input[type=text]{
+  height: 1.5rem;
+  width:12.6rem;
+  border-radius: 2rem;
+  border:0px;
+
+}
+
+#escriure_missatge input[type=checkbox] {
+
+}
+
+#escriure_missatge{
+  z-index: 100;
+  position: fixed;
+  height: 2rem;
+  width:80%;
+  background-color: white;
+  bottom:4rem;
+  left: 10%;
+  border-radius: 2rem;
+  border: 0.1rem solid #1E3F43;
+}
+
+#zona_missatge{
+  z-index: 100;
+  position: fixed;
+  height: 7rem;
+  width:100%;
+  background-color:#DADADA ;
+  bottom:0;
+  left: 0%;
+  border: 0.1rem solid transparent;
+  z-index: 2;
+  margin-top: 1rem;
+}
+
+/*FINAL xat */
+
+/* m2 li*/
+
+
+
+
+
+
+
+/* CALENDARI*/
+#barra_endarrere{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4.2rem;
+  width: 100%;
+  background-color: #DADADA;
+}
+
+.esdeveniment{
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color:white;
+  border-radius: 0;
+  padding-bottom: 1.5rem;
+}
+
+.b_titol{
+  height: 2rem;
+  margin:0,0;
+  background-color:#95C8D8;
+}
+
+.titol_esdeveniment{
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2rem;
+  margin-left: 0.5rem;
+}
+
+.descripcio_esdeveniment{
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  text-align: justify;
+}
+
+.ubicacio_esdeveniment{
+  margin-left: 0.6rem;
+  float: left;
+  margin-top: 0;
+}
+
+.hora_esdeveniment{
+  margin-right: 0.5rem;
+  float: right;
+  margin-top: 0;
+}
+#esdeveniment1{
+  margin-top: 6rem;
+}
+
+#ultim_esdeveniment{
+  margin-bottom: 6rem;
+}
+
+/* FINAL CALENDARI*/
+
+
+
+
+
+
+
+
+
+
+
+/* PERFILS*/
+.img_associacio_perfil{
+  height: 8rem;
+  width: 8rem;
+  border-radius: 7rem;
+  background-image: url(img/associacio/Cram.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:5rem;
+  margin-left: 33%
+}
+
+#img_usuari2_perfil{
+  height: 8rem;
+  width: 8rem;
+  border-radius: 7rem;
+  background-image: url(img/persona/u3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:5rem;
+  margin-left: 33%
+}
+.img_perfil_usuari{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 7rem;
+  background-image: url(img/persona/u3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-4.5rem;
+  margin-left: 55%
+}
+
+.nom_perfil_associacio{
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.titol_descripcio{
+  margin-left: 8%;
+  margin-top: 2rem;
+}
+
+.descripcio_perfil{
+  margin-left: 8%;
+  height: auto;
+  width: 84%;
+  background-color:white;
+  text-align: justify;
+  }
+
+#p_descripcio_perfil{
+  padding:1rem;
+}
+
+.n_tlf_perfil{
+  margin-top: 2rem;
+  margin-left: 8%;
+  height: auto;
+  width: 84%;
+  background-color:#95C8D8;
+  text-align:center;
+  border-radius: 5em;
+}
+/* FINAL associació*/
+
+#p_n_tlf_perfil{
+  padding:0.5rem;
+}
+
+._web{
+  margin-left: 8%;
+  height: auto;
+  width: 84%;
+  background-color:#95C8D8;
+  text-align:center;
+  border-radius: 5em;
+}
+
+
+#p_web{
+  padding:0.5rem;
+}
+
+.xarxa{
+  height: 2.5rem;
+  width: 2.5rem;
+  float: left;
+  border-radius: 0.8rem;
+}
+
+.correu_perfil{
+  margin-left: 8%;
+  height: auto;
+  width: 84%;
+  background-color:#95C8D8;
+  text-align:center;
+  border-radius: 5em;
+}
+
+
+#p_correu_perfil{
+  padding:0.5rem;
+}
+
+#ig{
+  margin-left:9%;
+  margin-top: 2rem;
+  background-image: url(img/ig.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+#tw{
+  background-image: url(img/twi.png);
+  margin-left:3%;
+  margin-top: 2rem;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#fb{
+  background-image: url(img/fb.jpg);
+  margin-left:3%;
+  margin-top: 2rem;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* FINAL perfils*/
+
+
+
+
+
+/*MEMBRES*/
+
+.img_grup{
+  margin-left: 33%;
+  margin-right: 33%;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 7rem;
+  background-image: url(img/fons/mar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 4.5rem;
+}
+
+
+
+
+
+#participants{
+  float:right;
+  margin-top: -1rem;
+  margin-right: 10%;
+  margin-bottom: 2rem;
+  color:#1E3F43;
+  font-weight: bold;
+}
+.linia_horitzontal{
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.perfils_pantalla_membres{
+  width: 28%;
+  transform: scale(0.6, 0.6);
+  float: left;
+  margin-left: 2.55%;
+  margin-right: 2.55%;
+  margin-bottom: -2rem;
+  margin-top: -2rem;
+}
+
+
+.img_associacio_membres{
+  height: 8rem;
+  width: 8rem;
+  border-radius: 7rem;
+  background-image: url(img/fons/Cram.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:0rem;
+  margin-left: 0rem;
+}
+
+.pam1{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 7rem;
+  background-image: url(img/associacio/Cram.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-4rem;
+  margin-left: 5rem;
+}
+
+.pam2{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 7rem;
+  background-image: url(img/associacio/Ecobrion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-4rem;
+  margin-left: 5rem;
+}
+
+.pam3{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 7rem;
+  background-image: url(img/associacio/ecologista.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-4rem;
+  margin-left: 5rem;
+}
+
+#ppm1{
+  background-image: url(img/persona/u1.jpg);
+}
+
+#ppm2{
+  background-image: url(img/persona/u2.jpg);
+}
+
+#ppm3{
+  background-image: url(img/persona/u3.jpg);
+}
+
+#ppm4{
+  background-image: url(img/persona/u4.jpg);
+}
+
+#ppm5{
+  background-image: url(img/persona/u5.jpg);
+}
+
+#ppm6{
+  background-image: url(img/persona/u6.jpg);
+}
+
+#ppm7{
+  background-image: url(img/persona/u7.jpg);
+}
+
+#ppm8{
+  background-image: url(img/persona/u8.jpg);
+}
+
+#ppm9{
+  background-image: url(img/persona/u9.jpg);
+}
+
+#ppm10{
+  background-image: url(img/persona/u10.jpg);
+}
+
+#ppm11{
+  background-image: url(img/persona/u11.jpg);
+}
+
+#ppm12{
+  background-image: url(img/persona/u12.jpg);
+}
+
+#ppm13{
+  background-image: url(img/persona/u13.jpg);
+}
+
+#ppm14{
+  background-image: url(img/persona/u14.jpg);
+}
+
+
+
+
+
+.nom_membre{
+  font-size: 1.5rem;
+  font-weight:normal;
+  text-align: center;
+}
+
+.rol{
+  margin-left: 5%;
+  margin-bottom: 0rem;
+  color:#1E3F43;
+  font-weight: bold;
+}
+
+/*FINAL membres*/
+
+
+
+
+
+/*ESPERA_RELOJ ARENA*/
+.esperar{
+  height: 80rem;
+  width: 40rem;
+  position:fixed;
+  margin: 0 auto;
+}
+
+#esperi{
+
+    color: black;
+    text-decoration: none;
+
+}
+.animacio{
+  width: 100%;
+  display: block;
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-top: 14rem;
+  text-align: center;
+  position: fixed;
+  height:13rem;
+  border-radius: 60rem;
+}
+
+@keyframes reloj_arena {
+  0%{transform:rotate(0deg);}
+  50%{transform:rotate(180deg);}
+  100%{transform:rotate(360deg);}
+}
+
+#esperi{
+  width: 100%;
+  display: block;
+  margin-top: 6rem;
+  position: fixed;
+  text-align: center;
+}
+
+#sollicitud{
+  width: 100%;
+  display:block;
+  text-align: center;
+  margin-top:36rem;
+  position: fixed;
+  color: black;
+}
+/*FINAL reloj arena*/
+
+
+
+
+
+
+
+
+/*AJUSTES*/
+
+.ajustos{
+  width: 95vw;
+  height: 100vw;
+
+}
+.titol_apartat{
+  height: 1.5rem;
+  width: 98vw;
+  background-color: #95C8D8;
+  margin-top: 0;
+  line-height: 1.5rem;
+  padding: 1vw;
+  font-weight: 550;
+  margin-top: 4rem;
+  margin-bottom: -0.5rem;
+}
+
+#apartat1{
+margin-top: 2.8rem;
+}
+
+.ajustos_nom{
+  margin-left: 0.6rem;
+  float: left;
+  width: 80vw;
+  margin-bottom: 1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin-top: 0;
+
+}
+
+.divisor_aj{
+  width: 100vw;
+  margin-left: 0;
+}
+
+.ajustos{
+  width: 100vw;
+  height: 1rem;
+  margin-top: 0rem;
+
+}
+
+
+
+input[type=checkbox] {
+  z-index: 7;
+  visibility: hidden;
+}
+
+.desplacador{
+  width:2rem;
+  height:1rem;
+  background:#95C8D8;
+  position:relative;
+  border-radius:0.5rem;
+  transform: scale(1.5, 1.5);
+  margin-left:85vw;
+  margin-top:-1.5rem;
+  z-index: 6;
+  float: left;
+}
+
+.desplacador label{
+  width:0.9rem;
+  height:0.9rem;
+  background:#F0F0F0;
+  position:absolute;
+  border-radius:0.5rem;
+  left:0.05rem;
+  margin-top: 0.05rem;
+  cursor:pointer;
+  transition:0.5s;
+  z-index: 6;
+}
+
+.desplacador input[type=checkbox]:checked+label{
+  left:1rem;
+  z-index: 6;
+}
+
+
+
+ input[type=checkbox] {
+  z-index: 99;
+  visibility: hidden;
+}
+
+
+#idioma_aj{
+  transform: translateY(1rem);
+  padding-bottom: 4rem;
+}
+
+/*FINAL ajustes*/
+
+
+
+
+
+
+
+
+
+
+
+/*REGISTRE 1*/
+.boto_reggistre{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 3rem;
+  border-radius: 20rem;
+  background-color: white;
+  text-align: center;
+  line-height: 3rem;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  }
+
+#iniciar{
+    margin-top: 7rem;
+    background-color: #1086A7;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+#crear_compte{
+  background-color: #1BBDC1;
+  color: white;
+  text-transform: uppercase;
+}
+
+  #inici_google{
+    margin-top: 75%;
+  }
+
+#inici_facebook{
+  background-color: #3b5998;
+  line-height: 1.2rem;
+
+}
+
+#icono_reg1{
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+#icono_reg2{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.floats{
+  float: left;
+}
+
+#hr_registre{
+  width: 100%;;
+  margin-top: -40%;
+
+}
+
+
+/*FINAL reistre 1*/
+
+
+/*Registre 2*/
+
+
+#titol_crear {
+  font-size: 1.5rem;
+  font-family: "Roboto";
+  font-weight: normal;
+  margin: 0 auto;
+  display: block;
+  margin-top: 5rem;
+  margin-left:10%;
+  color: #1086A7;
+}
+
+
+
+#usuari_registre2{
+  width:80%;
+  height: 2rem;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: 2rem;
+  border-color: transparent;
+}
+
+#contrasenya_registre2{
+  width:80%;
+  height: 2rem;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: 1rem;
+  border-color: transparent;
+  color:#1086A7;
+}
+
+#next{
+  height:2rem;
+  width: 6rem;
+  background-color: #1086A7;
+   color: white;
+   margin: 0 0;
+   text-align: center;
+   line-height: 2rem;
+   float: right;
+   margin-right: 10%;
+   margin-top: 4rem;
+   border-radius: 3rem;
+   font-size: 0.9rem;
+}
+
+/*FINAL Registre 2*/
+
+
+
+/*REGISTRE 3*/
+.items_registre3{
+  width:80%;
+  height: 2rem;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: 1rem;
+  border-color: transparent;
+  color:#1086A7;
+}
+
+#item1{
+  margin-top: 2rem;
+}
+/*FINAL registre 3*/
+
+
+
+
+
+
+
+/*NOTIFICACIONS*/
+.perfil_pantalla_notificacions{
+  width: 90%;
+  margin-left:
+}
+
+.img_notificacions{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 4rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  float: left;
+}
+
+#img_notificacions_1{
+  background-image: url(img/persona/u3.jpg);
+}
+
+#img_notificacions_2{
+  background-image: url(img/persona/u2.jpg);
+}
+
+
+#img_notificacions_3{
+  background-image: url(img/persona/u1.jpg);
+}
+
+#img_notificacions_4{
+  background-image: url(img/persona/u4.jpg);
+}
+
+#img_notificacions_5{
+  background-image: url(img/persona/u5.jpg);
+}
+
+#img_notificacions_6{
+  background-image: url(img/persona/u7.jpg);
+}
+
+#img_notificacions_7{
+  background-image: url(img/persona/u8.jpg);
+}
+
+#img_notificacions_8{
+  background-image: url(img/persona/u6.jpg);
+}
+
+#img_notificacions_9{
+  background-image: url(img/persona/u9.jpg);
+}
+
+#img_notificacions_10{
+  background-image: url(img/persona/u10.jpg);
+}
+
+#img_notificacions_11{
+  background-image: url(img/persona/u11.jpg);
+}
+
+#img_notificacions_12{
+  background-image: url(img/persona/u12.jpg);
+}
+
+#img_notificacions_13{
+  background-image: url(img/persona/u13.jpg);
+}
+
+#img_notificacions_14{
+  background-image: url(img/persona/u14.jpg);
+}
+
+#img_notificacions_15{
+  background-image: url(img/persona/u15.jpg);
+  margin-bottom: 3rem;
+}
+
+
+
+.unir_boto{
+  height:1.2rem;
+  width: 4rem;
+  background-color: #95C8D8;
+   color: white;
+   margin: 0 0;
+   text-align: center;
+   line-height: 1.2rem;
+   float: left;
+   margin-top: 1rem;
+   border-radius: 3rem;
+   font-size: 0.9rem;
+   margin-right: 0.5rem;
+}
+
+.x_boto{
+  height:1.2rem;
+  width: 4rem;
+  background-color: #0F86A7;
+   color: white;
+   margin: 0 0;
+   text-align: center;
+   line-height: 1.2rem;
+   float: left;
+   margin-top: 1rem;
+   border-radius: 3rem;
+   font-size: 0.9rem;
+}
+
+.nom_notificacions{
+  height:1.2rem;
+  width: 70%;
+
+   color:#1E3F43;
+   margin: 0 0;
+   text-align: left;
+   line-height: 1.5rem;
+   float: left;
+   margin-top: 0rem;
+   border-radius: 3rem;
+   font-size: 1rem;
+   font-weight: bold;
+}
+
+.separador_notificacions{
+  width: 100%;
+  border-top: 0.5rem solid transparent;
+  border-left: 0 solid transparent;
+  border-right: 0 solid transparent;
+}
+
+#notificacio1{
+  margin-top: 4rem;
+}
+
+.ultim_missatge{
+  height:4rem;
+  width: 4rem;
+   color: white;
+   margin: 0 0;
+   text-align: center;
+   line-height: 4rem;
+   float: left;
+   margin-top: 2rem;
+   border-radius: 3rem;
+   font-size: 0.7rem;
+   margin-right: 0.5rem;
+   position: absolute;
+}
+
+
+.n_notificacio{
+  height:1.2rem;
+  width: 1.2rem;
+  background-color: #0F86A7;
+   color: white;
+   margin: 0 0;
+   text-align: center;
+   line-height: 1.2rem;
+   float: right;
+   margin-right: 10%;
+   margin-top: -2.5rem;
+   border-radius: 3rem;
+   font-size: 0.9rem;
+   padding: 0.2rem;
+   margin-bottom: 0;
+}
+
+.nom_notificacions2{
+  height:1.2rem;
+  width: 70%;
+
+   color:#1E3F43;
+   margin: 0 0;
+   text-align: left;
+   line-height: 1.5rem;
+   float: left;
+   margin-top: 0rem;
+   border-radius: 3rem;
+   font-size: 1rem;
+   font-weight: bold;
+   margin-bottom: 1rem;
+}
+/*FINAL notificacions*/
+
+/*BUSCADOR*/
+
+.pasar_seguent{
+  height: 100vh;
+  width: 100vw;
+  background-color: green;
+  z-index: 33;
+  margin: 0;
+  position: relative;
+}
+
+  .bus_1{
+  width: 100vw;
+  margin: 0 auto;;
+  margin-top:0vh;
+  background-color:transparent ;
+
+}
+
+
+.bus_3{
+width: 100vw;
+margin: 0 auto;;
+margin-top:-10vh;
+background-color:transparent ;
+
+}
+
+  .ambits{
+    height: 35vw;
+    width:35vw;
+    margin: 0 auto;
+    background-color: transparent;
+    background-size:cover;
+    float: left;
+    position: relative;
+    margin-left:3vw;
+    margin-right: 3vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+  }
+
+  .ambits p{
+    background: transparent;
+    width: 100%;
+    position: absolute;
+    top: 32vw;
+    text-align:center;
+    color:black;
+  }
+
+  #ambit_1{
+    background-image: url(img/Agua72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+
+  }
+
+  #ambit_2{
+    background-image: url(img/Alianza72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_3{
+    background-image: url(img/Clima72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_4{
+    background-image: url(img/Educación72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_5{
+    background-image: url(img/Fam72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 35vw;
+      width:35vw;
+  }
+
+  #ambit_6{
+    background-image: url(img/Igualdad72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_7{
+    background-image: url(img/Salud72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_8{
+    background-image: url(img/Trabajo72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_9{
+    background-image: url(img/Desigualdad72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_10{
+    background-image: url(img/Ecosistema72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_11{
+    background-image: url(img/Energía72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_12{
+    background-image: url(img/Industria72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_13{
+    background-image: url(img/Submarina72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;;
+  }
+
+  #ambit_14{
+    background-image: url(img/Responsable72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_15{
+    background-image: url(img/Sostenibles72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_16{
+    background-image: url(img/Paz72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+
+  #ambit_17{
+    background-image: url(img/Pobreza72.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    width:35vw;
+  }
+/*FINAL buscador*/
+
+
+
+
+/*buscador_grups*/
+.bus_2{
+width: 100vw;
+margin: 0 0;
+margin-top:-7vh;
+margin-left: 0vw;
+}
+
+.buscador{
+  height: 100vh;
+  width: 90vw;
+  color: white;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  margin-bottom: 10vh;
+  margin-left: 8vw;
+  margin-right: 0;
+
+}
+
+#buscador_grups{
+  margin-left:0vw;
+}
+
+.grups{
+  height: 35vw;
+  width:35vw;
+  background-color: white;
+  float: left;
+  border-radius: 50%;
+  margin-bottom: 5rem;
+  margin-left: 10vw;
+  margin-top: 2vw;
+}
+
+.grups p{
+  height: 2.5rem;
+  width: 100%;
+  margin-top: 10rem;
+  text-align:center;
+  color: black;
+  font-weight: bold;
+}
+
+#grups_1{
+  background-image: url(img/aaccion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#grups_2{
+  background-image: url(img/children.png);
+  background-repeat: no-repeat;
+  background-position: -4.5rem 1rem;
+  background-size: cover;
+
+
+}
+
+#grups_3{
+  background-image: url(img/Cram.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -1.5rem 0rem;
+
+}
+
+#grups_4{
+  background-image: url(img/Ecobrion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#grups_5{
+  background-image: url(img/ecologista.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -3rem 0rem;
+
+}
+
+#grups_6{
+  background-image: url(img/feminista.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#grups_7{
+  background-image: url(img/Fonaes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#grups_8{
+  background-image: url(img/Graellsia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#grups_9{
+  background-image: url(img/Igualdad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#grups_10{
+  background-image: url(img/Potabilis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -1rem 0rem;
+
+}
+
+#grups_11{
+  background-image: url(img/Unicef.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#grups_12{
+  background-image: url(img/WWF.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -1.5rem 0rem;
+}
+
+#grups_13{
+  background-color: transparent;ç
+  height: 2vw;
+  }
+
+
+
+/*final bscador grups*/
+
+
+
+
+
+
+
+
+
+
+/*MENÚ HAMBURGUESA */
+.menu input[type=text]{
+
+  background-color: transparent;
+  transform: translateY(3.2rem) translateX(1rem);
+  height: 1.5rem;
+  width:12.6rem;
+  border-radius: 2rem;
+  border:0px;
+}
+
+#buscador_menu{
+  height: 2rem;
+  width: 15rem;
+  background-color: #1E3F43;
+  border-radius: 3rem;
+  transform: translateY(5rem) translateX(-1rem);
+}
+
+#buscador_menu::before{
+  content:"";
+  display:block;
+  height:1.5rem;
+  width:12.6rem;
+  background-color:#DADADA;
+  position:relative;
+  border-radius: 2rem;
+  transform: translateX(2rem) translateY(0.25rem);
+}
+
+.menu{
+  width:2.5rem;
+  height:2.5rem;
+  position:relative;
+  top:0.75rem;
+  left:0.25rem;
+
+}
+
+.menu label {
+  width:2rem;
+  height:2rem;
+  position:absolute;
+  left:-3rem;
+  top:-1rem;
+  cursor:pointer;
+  z-index:5;
+}
+
+#menu_icono{
+  width:1rem;
+  height:1rem;
+  position:absolute;
+  left:0.15rem;
+  top:0.75rem;
+  z-index:3;
+}
+
+li{
+  list-style:none;
+  display:inline-block;
+  width:13rem;
+  height:2.5rem;
+  margin-bottom:0.1rem;
+  font-family:Roboto;
+  line-height:2rem;
+  text-align:left;
+  position:relative;
+  top:5rem;
+  border-bottom: 0.1rem solid #DADADA;
+  line-height: 2.5rem;
+  font-size: 0.9rem;
+}
+
+li:hover {
+  filter: brightness(140%);
+}
+
+ul{
+  position:relative;
+  left:-18rem;
+  top:-3rem;
+  transition:0.5s;
+  height: 60rem;
+  width:15rem;
+  background-color:#0F86A7;
+
+}
+
+.menu input[type=checkbox]:checked+label~ul{
+  left:-0.5rem;
+}
+
+.menu_hamburgesa{
+  position:fixed;
+  top:0;
+  left:0;
+  height: 95%;
+  width:60%;
+  z-index:31;
+}
+
+.menu input[type=checkbox] {
+  visibility:hidden;
+}
+
+a{
+  text-decoration: none;
+  color:#DADADA;
+}
+
+i{
+  float: left;
+  font-family: "Roboto";
+}
+/*FINAL menú hamburguesa */
+
+
+.pasar_next{
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+  z-index: 30;
+  position: fixed;
+  margin: 0;
+  margin-top: -110vh;
+  margin-left: 0vw;
+}
+
+
+
+/*lupa buscadors */
+#buscador_menu2{
+  height: 10vw;
+  width: 80vw;
+  background-color: #1E3F43;
+  border-radius: 3rem;
+  transform: translateY(20vw) translateX(-5vw);
+  margin-left: 15vw;
+}
+
+#buscador_menu2::before{
+  content:"";
+  display:block;
+  height: 8vw;
+  width: 70vw;
+  background-color:#DADADA;
+  position:relative;
+  border-radius: 2rem;
+  margin-left: 9vw;
+  margin-top: 3vw;
+  transform: translateY(1vw);
+}
+
+.buscador_lupa input[type=text]{
+
+  background-color:transparent;
+  height: 8vw;
+  width:70vw;
+  border-radius:3rem;
+  margin-top:10.5vw;
+  transform: translateX(19vw);
+
+
+  border:0px;
+}
