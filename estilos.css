@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #DADADA;
+}
+
+.imatge_index_logotip{
+  height: 30vh;
+  width: 100vw;
+  background-image: url(img/logo_barra.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80vw auto;
+  margin: 0;
+  padding: 0;
+  margin-top: 2vw;
+}
+
+#demo{
+  height: 70vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+	list-style: none;
+
+  position: relative;
+  overflow: visible;
+}
+
+
+
+.enllac1{
+  list-style: none;
+  font-size: 1rem;
+}
+
+.imatge_index_logotip{
+
+
+}
+
+	nav ul li {
+		float: left;
+    height: 40vw;
+    width: 40vw;
+    margin-left: 4vw;
+    margin-top: 4vw;
+    list-style: none;
+
+
+	}
+
+  #nav1{
+    height: 70vh;
+    width: 100vw;
+    margin-top: -2vw;
+  }
+		nav ul li a {
+			display: block;
+			background-image: url(icons.png); background-repeat: no-repeat;
+      height: 40vw;
+      width: 40vw;
+      list-style: none;
+      margin: 0 auto;
+      border-width: 2px;
+      border-style: solid;
+     border-color: white;
+
+
+		}
+			nav ul li:nth-child(1) a {
+        background-image: url(img/fondo_logo_app-02.png);
+        background-position: center;
+        background-size: cover;
+
+
+			}
+			nav ul li:nth-child(2) a {
+				background-color: #0F86A7;
+        border-color: white;
+
+			}
+			nav ul li:nth-child(3) a {
+				background-color: #2DB6BC;
+
+			}
+			nav ul li:nth-child(4) a {
+				background-color: #1E3F43;
+
+			}
+
+      nav ul li:nth-child(5) a {
+        background-color: white;
+        height: 20vw;
+        width: 84vw;
+
+      }
+
+				nav ul li a p {
+					font-family: "Roboto", sans-serif;
+          text-transform: uppercase;
+					position: absolute;
+          margin: 0 auto;
+          height: 40vw;
+          width: 40vw;
+          margin-top: 3vw;
+          overflow: visible;
+          list-style: none;
+          padding: 0;
+          position: absolute;
+          text-align: center;
+          font-size: 2.5rem;
+          color: white;
+				}
+
+        #p5{
+
+          height: 20vw;
+          width: 84vw;
+          line-height: 20vw;
+          margin: 0;
+          color:#1E3F43;
+          font-weight: bolder;
+
+        }
+
+        #p1_index{
+          color:#1E3F43;
+          font-weight: bolder;
+        }
