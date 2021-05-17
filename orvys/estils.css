@@ -1075,16 +1075,16 @@ input[type=checkbox] {
 
 /*REGISTRE 1*/
 .boto_reggistre{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 3rem;
-  border-radius: 20rem;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 12vw;
+  border-radius: 20vw;
   background-color: white;
   text-align: center;
-  line-height: 3rem;
+  line-height: 12vw;
   font-family: "Roboto";
-  font-size: 1.2rem;
+  font-size: 5vw;
   }
 
 #iniciar{
@@ -1102,12 +1102,14 @@ input[type=checkbox] {
 }
 
   #inici_google{
-    margin-top: 75%;
+    margin-top: 40vh;
   }
 
 #inici_facebook{
   background-color: #3b5998;
-  line-height: 1.2rem;
+  line-height: 3vw;
+  text-align: center;
+  width: 80vw;
 
 }
 
@@ -1118,11 +1120,11 @@ input[type=checkbox] {
 }
 
 #icono_reg2{
-  height: 1.5rem;
-  width: 1.5rem;
-  margin-right: 0.5rem;
-  margin-left: 1.5rem;
-  margin-top: 0.75rem;
+  height: 6vw;
+  width: 6vw;
+  margin-right: 2vw;
+  margin-left: 5vw;
+  margin-top: 3vw;
 }
 
 .floats{
@@ -1130,7 +1132,7 @@ input[type=checkbox] {
 }
 
 #hr_registre{
-  width: 100%;;
+  width: 100vw;
   margin-top: -40%;
 
 }
